@@ -1,0 +1,9 @@
+header {
+  width: 75%;
+}
+
+@media (max-width: 940px) {
+  header {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=header.css.map */

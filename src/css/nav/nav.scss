@@ -1,0 +1,9 @@
+nav{
+    display: flex;
+}
+
+@media (max-width: 940px) {
+  nav {
+    display: none !important;
+  }
+}

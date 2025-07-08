@@ -2,8 +2,9 @@ import "./App.css";
 import Dashboard from "./components/Dashboard";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
-import "./css/bootstrap.min.css";
-import "./css/style.css";
+import "./css/helpers/bootstrap.min.css";
+import "./css/helpers/style.css";
+import "./css/main/Main.css";
 function App() {
   return (
     <>

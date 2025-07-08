@@ -1,9 +1,3 @@
-/********** Template CSS **********/
-:root {
-  --primary: #009cff;
-  --body-bg: #191c24;
-}
-
 [data-theme="light"] {
   --body-bg: #191c24;
 }
@@ -33,39 +27,10 @@
 }
 
 /*** Button ***/
-.btn {
-  transition: 0.5s;
-}
 
-.btn.btn-primary {
-  color: #ffffff;
-}
 
-.btn-square {
-  width: 38px;
-  height: 38px;
-}
 
-.btn-sm-square {
-  width: 32px;
-  height: 32px;
-}
 
-.btn-lg-square {
-  width: 48px;
-  height: 48px;
-}
-
-.btn-square,
-.btn-sm-square,
-.btn-lg-square {
-  padding: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: normal;
-  border-radius: 50px;
-}
 
 /*** Layout ***/
 .sidebar {
