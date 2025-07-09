@@ -9,7 +9,7 @@ import {
 import "../css/header/header.css";
 function Header() {
   return (
-    <header className="d-flex justify-content-between position-absolute top-0 end-0 pe-4 float-end">
+    <header className="bg-light d-flex justify-content-between position-absolute top-0 end-0 pe-4 float-end">
       <div className="left d-flex flex-row w-100 h-25 gap-5 align-items-center p-2">
         <div className="control d-inline-flex gap-4">
           <button className="btn rounded-full btn-square txt-blue fw-bolder">

@@ -7,16 +7,15 @@
 body {
   background-color: var(--body-bg);
 }
-header {
-  background-color: var(--components-bg);
-}
 // Backgrounds:
 .bg-transparent {
   background-color: transparent !important;
 }
 // Text:
 .txt-black {
-  color: #000 !important;
+  &:hover {
+    color: var(--primary);
+  }
 }
 .txt-blue {
   color: var(--primary) !important;

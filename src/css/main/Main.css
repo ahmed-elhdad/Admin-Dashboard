@@ -15,16 +15,12 @@ body {
   background-color: var(--body-bg);
 }
 
-header {
-  background-color: var(--components-bg);
-}
-
 .bg-transparent {
   background-color: transparent !important;
 }
 
-.txt-black {
-  color: #000 !important;
+.txt-black:hover {
+  color: var(--primary);
 }
 
 .txt-blue {
