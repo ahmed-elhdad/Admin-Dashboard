@@ -1,11 +1,11 @@
 div.sidebar {
-  h1{
+  h1 {
     font-size: 27px;
   }
   nav.navbar {
     display: flex;
     .profile {
-      img{
+      img {
       }
       .text {
         h3 {
@@ -17,21 +17,23 @@ div.sidebar {
       }
     }
     .controls {
-      display: flex; 
+      display: flex;
       flex-direction: column;
       gap: 5px;
       div.d-flex {
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
+        justify-content: space-between;
         width: 230px;
         cursor: pointer;
         padding: 10px;
         padding-left: 0;
-        &:hover {
+        &:hover,
+        &.active {
           background-color: #fff;
-          h3,svg{
+          h3,
+          svg {
             color: var(--primary) !important;
-
           }
         }
         > div {

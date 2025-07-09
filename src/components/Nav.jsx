@@ -95,9 +95,11 @@ function Nav() {
               </div>
               <h3>Pages</h3>
             </div>
+            <FontAwesomeIcon icon={faCaretDown} />
           </div>
         </div>
       </nav>
+      <canvas id="worldwide-sales"></canvas>
     </div>
   );
 }

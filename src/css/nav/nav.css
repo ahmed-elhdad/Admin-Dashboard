@@ -18,15 +18,18 @@ div.sidebar nav.navbar .controls {
 div.sidebar nav.navbar .controls div.d-flex {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  justify-content: space-between;
   width: 230px;
   cursor: pointer;
   padding: 10px;
   padding-left: 0;
 }
-div.sidebar nav.navbar .controls div.d-flex:hover {
+div.sidebar nav.navbar .controls div.d-flex:hover, div.sidebar nav.navbar .controls div.d-flex.active {
   background-color: #fff;
 }
-div.sidebar nav.navbar .controls div.d-flex:hover h3, div.sidebar nav.navbar .controls div.d-flex:hover svg {
+div.sidebar nav.navbar .controls div.d-flex:hover h3,
+div.sidebar nav.navbar .controls div.d-flex:hover svg, div.sidebar nav.navbar .controls div.d-flex.active h3,
+div.sidebar nav.navbar .controls div.d-flex.active svg {
   color: var(--primary) !important;
 }
 div.sidebar nav.navbar .controls div.d-flex > div {
